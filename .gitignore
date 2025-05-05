@@ -1,0 +1,20 @@
+# ASP.NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.pdb
+*.dbmdl
+*.log
+
+# Node / frontend
+node_modules/
+dist/
+.env
+
+# Mac / Windows / VS
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp

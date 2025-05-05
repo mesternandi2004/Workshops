@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <title>Kapcsolat</title>
+</head>
+<body class="bg-light">
+
+    <div class="container mt-5">
+        <h1 class="text-center">Kapcsolat</h1>
+        <form class="bg-white p-4 rounded shadow-sm">
+            <div class="mb-3">
+                <label for="name" class="form-label">Teljes név:</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Írja be a teljes nevét" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email cím:</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Írja be az email címét" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Ön:</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" id="hallgato" name="status" value="hallgato" required>
+                    <label class="form-check-label" for="hallgato">Hallgató</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" id="oktato" name="status" value="oktato">
+                    <label class="form-check-label" for="oktato">Oktató</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" id="kulso" name="status" value="kulso">
+                    <label class="form-check-label" for="kulso">Külsős személy</label>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="subject" class="form-label">Üzenet tárgya:</label>
+                <input type="text" class="form-control" id="subject" name="subject" placeholder="Pl.: Beiratkozási kérdés" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="message" class="form-label">Üzenet szövege:</label>
+                <textarea class="form-control" id="message" name="message" placeholder="Írja be az üzenetét..." rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">Elküldés</button>
+        </form>
+
+        <h2 class="mt-5 text-center">Elérhetőségünk</h2>
+        <div class="d-flex justify-content-center">
+            <iframe width="400" height="300" class="rounded" style="border:0;" loading="lazy" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13405.55501004841!2d19.040235289397917!3d47.497912663822226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc565c6d315b%3A0x400d4f0c86c5b40!2sBudapest!5e0!3m2!1shu!2shu!4v1649435695712!5m2!1shu!2shu">
+            </iframe>
+        </div>
+
+        <div class="text-center mt-4">
+            <a href="../index.html" class="btn btn-secondary">Vissza a főoldalra</a>
+        </div>
+    </div>
+
+</body>
+</html>

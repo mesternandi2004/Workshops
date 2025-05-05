@@ -1,0 +1,127 @@
+
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Főoldal</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand text-white" href="index.html">Óbudai Egyetem</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="pages/services.html">Szolgáltatások</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="pages/subjects.html">Tárgyak</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="pages/students.html">Hallgatók</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="pages/merch.html">Merch-shop</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="pages/contact.html">Kapcsolat</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="pages/problem.html">Probléma bejelentés</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="images/OE.jpg" class="img-fluid mx-auto d-block" alt="Első kép">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="images/oe_nik_modern.png" class="img-fluid mx-auto d-block" alt="Második kép">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="images/oe_banki_logo.jpg" class="img-fluid mx-auto d-block" alt="Harmadik kép">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/Képernyőkép.hir.png" class="card-img-top" alt="Hallgatók">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Minden idők legjobb felvételi számait hozta az Óbudai Egyetem</h5>
+                        <p class="text-muted">2025. március 11.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-4 d-flex flex-column align-items-center">
+                <button class="btn btn-primary mb-2 w-100">Python</button>
+                <button class="btn btn-success mb-2 w-100">Java</button>
+                <button class="btn btn-danger mb-2 w-100">C++</button>
+                <button class="btn btn-warning mb-2 w-100">JavaScript</button>
+                <button class="btn btn-dark mb-2 w-100">PHP</button>
+            </div>
+    
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/Afrikai.kep.png" class="card-img-top" alt="Afrikai tehetségek">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Tehetségek bevonása az afrikai kontinensen</h5>
+                        <p class="text-muted">2025. március 05.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt risus eget diam faucibus, eget tincidunt ligula tristique. Aenean id justo a dui tincidunt bibendum at sit amet turpis.</p>
+    </div>
+
+    <footer class="bg-light py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="text-dark">Elérhetőségek</h5>
+                    <p class="text-dark">Telefon: +36 1 234 5678</p>
+                    <p class="text-dark">Email: info@egyetem.hu</p>
+                    <p class="text-dark">Cím: 1111 Budapest, Egyetem utca 1.</p>
+                </div>
+
+                <div class="col-md-4">
+                    <iframe 
+                        width="100%" 
+                        height="200" 
+                        style="border:0" 
+                        loading="lazy" 
+                        allowfullscreen 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13405.55501004841!2d19.040235289397917!3d47.497912663822226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc565c6d315b%3A0x400d4f0c86c5b40!2sBudapest!5e0!3m2!1shu!2shu!4v1649435695712!5m2!1shu!2shu">
+                    </iframe>
+                </div>
+
+                <div class="col-md-4">
+                    <h5 class="text-dark">Navigáció</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-dark">Főoldal</a></li>
+                        <li><a href="pages/services.html" class="text-dark">Szolgáltatások</a></li>
+                        <li><a href="pages/subjects.html" class="text-dark">Tárgyak</a></li>
+                        <li><a href="pages/contact.html" class="text-dark">Kapcsolat</a></li>
+                        <li><a href="pages/student.html" class="text-dark">Hallgatók</a></li>
+                        <li><a href="pages/merch.html" class="text-dark">Merch-shop</a></li>
+                        <li><a href="pages/problem.html" class="text-dark">Probléma bejelentés</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
