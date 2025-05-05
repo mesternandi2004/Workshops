@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\meste\\OneDrive\\Asztali g\u00E9p\\Egyetem\\Full-Stack\\Workshop_05\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F0B2E50-841C-4D19-A582-D597FBA55173}|Workshop_05\\Workshop_05.csproj|c:\\users\\meste\\onedrive\\asztali g\u00E9p\\egyetem\\full-stack\\workshop_05\\workshop_05\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F0B2E50-841C-4D19-A582-D597FBA55173}|Workshop_05\\Workshop_05.csproj|solutionrelative:workshop_05\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F0B2E50-841C-4D19-A582-D597FBA55173}|Workshop_05\\Workshop_05.csproj|c:\\users\\meste\\onedrive\\asztali g\u00E9p\\egyetem\\full-stack\\workshop_05\\workshop_05\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F0B2E50-841C-4D19-A582-D597FBA55173}|Workshop_05\\Workshop_05.csproj|solutionrelative:workshop_05\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F0B2E50-841C-4D19-A582-D597FBA55173}|Workshop_05\\Workshop_05.csproj|c:\\users\\meste\\onedrive\\asztali g\u00E9p\\egyetem\\full-stack\\workshop_05\\workshop_05\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F0B2E50-841C-4D19-A582-D597FBA55173}|Workshop_05\\Workshop_05.csproj|solutionrelative:workshop_05\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F0B2E50-841C-4D19-A582-D597FBA55173}|Workshop_05\\Workshop_05.csproj|c:\\users\\meste\\onedrive\\asztali g\u00E9p\\egyetem\\full-stack\\workshop_05\\workshop_05\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F0B2E50-841C-4D19-A582-D597FBA55173}|Workshop_05\\Workshop_05.csproj|solutionrelative:workshop_05\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F0B2E50-841C-4D19-A582-D597FBA55173}|Workshop_05\\Workshop_05.csproj|c:\\users\\meste\\onedrive\\asztali g\u00E9p\\egyetem\\full-stack\\workshop_05\\workshop_05\\data\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F0B2E50-841C-4D19-A582-D597FBA55173}|Workshop_05\\Workshop_05.csproj|solutionrelative:workshop_05\\data\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F0B2E50-841C-4D19-A582-D597FBA55173}|Workshop_05\\Workshop_05.csproj|c:\\users\\meste\\onedrive\\asztali g\u00E9p\\egyetem\\full-stack\\workshop_05\\workshop_05\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F0B2E50-841C-4D19-A582-D597FBA55173}|Workshop_05\\Workshop_05.csproj|solutionrelative:workshop_05\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F0B2E50-841C-4D19-A582-D597FBA55173}|Workshop_05\\Workshop_05.csproj|c:\\users\\meste\\onedrive\\asztali g\u00E9p\\egyetem\\full-stack\\workshop_05\\workshop_05\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F0B2E50-841C-4D19-A582-D597FBA55173}|Workshop_05\\Workshop_05.csproj|solutionrelative:workshop_05\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F0B2E50-841C-4D19-A582-D597FBA55173}|Workshop_05\\Workshop_05.csproj|c:\\users\\meste\\onedrive\\asztali g\u00E9p\\egyetem\\full-stack\\workshop_05\\workshop_05\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F0B2E50-841C-4D19-A582-D597FBA55173}|Workshop_05\\Workshop_05.csproj|solutionrelative:workshop_05\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F0B2E50-841C-4D19-A582-D597FBA55173}|Workshop_05\\Workshop_05.csproj|c:\\users\\meste\\onedrive\\asztali g\u00E9p\\egyetem\\full-stack\\workshop_05\\workshop_05\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F0B2E50-841C-4D19-A582-D597FBA55173}|Workshop_05\\Workshop_05.csproj|solutionrelative:workshop_05\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F0B2E50-841C-4D19-A582-D597FBA55173}|Workshop_05\\Workshop_05.csproj|c:\\users\\meste\\onedrive\\asztali g\u00E9p\\egyetem\\full-stack\\workshop_05\\workshop_05\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F0B2E50-841C-4D19-A582-D597FBA55173}|Workshop_05\\Workshop_05.csproj|solutionrelative:workshop_05\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\meste\\OneDrive\\Asztali g\u00E9p\\Egyetem\\Full-Stack\\Workshop_05\\Workshop_05\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Workshop_05\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\meste\\OneDrive\\Asztali g\u00E9p\\Egyetem\\Full-Stack\\Workshop_05\\Workshop_05\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "Workshop_05\\Views\\Home\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T12:58:06.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InvoiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\meste\\OneDrive\\Asztali g\u00E9p\\Egyetem\\Full-Stack\\Workshop_05\\Workshop_05\\Data\\InvoiceRepository.cs",
+              "RelativeDocumentMoniker": "Workshop_05\\Data\\InvoiceRepository.cs",
+              "ToolTip": "C:\\Users\\meste\\OneDrive\\Asztali g\u00E9p\\Egyetem\\Full-Stack\\Workshop_05\\Workshop_05\\Data\\InvoiceRepository.cs",
+              "RelativeToolTip": "Workshop_05\\Data\\InvoiceRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA5wCwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T12:54:05.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\meste\\OneDrive\\Asztali g\u00E9p\\Egyetem\\Full-Stack\\Workshop_05\\Workshop_05\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Workshop_05\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\meste\\OneDrive\\Asztali g\u00E9p\\Egyetem\\Full-Stack\\Workshop_05\\Workshop_05\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Workshop_05\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T12:47:35.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\meste\\OneDrive\\Asztali g\u00E9p\\Egyetem\\Full-Stack\\Workshop_05\\Workshop_05\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Workshop_05\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\meste\\OneDrive\\Asztali g\u00E9p\\Egyetem\\Full-Stack\\Workshop_05\\Workshop_05\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Workshop_05\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T12:47:20.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\meste\\OneDrive\\Asztali g\u00E9p\\Egyetem\\Full-Stack\\Workshop_05\\Workshop_05\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Workshop_05\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\meste\\OneDrive\\Asztali g\u00E9p\\Egyetem\\Full-Stack\\Workshop_05\\Workshop_05\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Workshop_05\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T13:01:11.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\meste\\OneDrive\\Asztali g\u00E9p\\Egyetem\\Full-Stack\\Workshop_05\\Workshop_05\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Workshop_05\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\meste\\OneDrive\\Asztali g\u00E9p\\Egyetem\\Full-Stack\\Workshop_05\\Workshop_05\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Workshop_05\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T12:47:30.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\meste\\OneDrive\\Asztali g\u00E9p\\Egyetem\\Full-Stack\\Workshop_05\\Workshop_05\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "Workshop_05\\Models\\Invoice.cs",
+              "ToolTip": "C:\\Users\\meste\\OneDrive\\Asztali g\u00E9p\\Egyetem\\Full-Stack\\Workshop_05\\Workshop_05\\Models\\Invoice.cs",
+              "RelativeToolTip": "Workshop_05\\Models\\Invoice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T12:51:24.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InvoiceController.cs",
+              "DocumentMoniker": "C:\\Users\\meste\\OneDrive\\Asztali g\u00E9p\\Egyetem\\Full-Stack\\Workshop_05\\Workshop_05\\Controllers\\InvoiceController.cs",
+              "RelativeDocumentMoniker": "Workshop_05\\Controllers\\InvoiceController.cs",
+              "ToolTip": "C:\\Users\\meste\\OneDrive\\Asztali g\u00E9p\\Egyetem\\Full-Stack\\Workshop_05\\Workshop_05\\Controllers\\InvoiceController.cs",
+              "RelativeToolTip": "Workshop_05\\Controllers\\InvoiceController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwDQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T12:48:26.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\meste\\OneDrive\\Asztali g\u00E9p\\Egyetem\\Full-Stack\\Workshop_05\\Workshop_05\\Program.cs",
+              "RelativeDocumentMoniker": "Workshop_05\\Program.cs",
+              "ToolTip": "C:\\Users\\meste\\OneDrive\\Asztali g\u00E9p\\Egyetem\\Full-Stack\\Workshop_05\\Workshop_05\\Program.cs",
+              "RelativeToolTip": "Workshop_05\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA+wCAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T12:47:58.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\meste\\OneDrive\\Asztali g\u00E9p\\Egyetem\\Full-Stack\\Workshop_05\\Workshop_05\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "Workshop_05\\Views\\Home\\Create.cshtml",
+              "ToolTip": "C:\\Users\\meste\\OneDrive\\Asztali g\u00E9p\\Egyetem\\Full-Stack\\Workshop_05\\Workshop_05\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "Workshop_05\\Views\\Home\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T12:57:29.343Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

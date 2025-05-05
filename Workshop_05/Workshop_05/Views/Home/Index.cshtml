@@ -1,0 +1,79 @@
+﻿@model List<Workshop_05.Models.Invoice>
+@{
+    ViewBag.Title = "Számlák";
+}
+<h2 class="mb-4">Számlák listája</h2>
+
+<p>
+    @Html.ActionLink("➕ Új számla", "Create", null, new { @class = "btn btn-primary mb-3" })
+</p>
+
+@Html.AntiForgeryToken() 
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Befizető neve</th>
+            <th>Összeg (Ft)</th>
+            <th>Fizetve</th>
+            <th>Műveletek</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var invoice in Model)
+        {
+            <tr id="invoice-@invoice.Id">
+                <td>@invoice.Id</td>
+                <td>@invoice.PayerName</td>
+                <td>@invoice.Amount</td>
+                <td>
+                    @if (invoice.IsPaid)
+                    {
+                        <span class="text-success fw-bold">✔</span>
+                    }
+                    else
+                    {
+                        <span class="text-danger fw-bold">✖</span>
+                    }
+                </td>
+                <td>
+                    @Html.ActionLink("✏️ Szerkesztés", "Edit", new { id = invoice.Id }, new { @class = "btn btn-sm btn-warning me-1" })
+
+                    <button class="btn btn-sm btn-danger me-1" onclick="deleteInvoice(@invoice.Id)">🗑 Törlés</button>
+
+                    @if (!invoice.IsPaid)
+                    {
+                        @using (Html.BeginForm("MarkAsPaid", "Invoice", FormMethod.Post, new { @class = "d-inline" }))
+                        {
+                            @Html.Hidden("id", invoice.Id)
+                            <button type="submit" class="btn btn-sm btn-success">💵 Fizetve</button>
+                        }
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        function deleteInvoice(id) {
+            const token = document.querySelector('input[name="__RequestVerificationToken"]').value;
+
+            fetch('/Invoice/Delete/' + id, {
+                method: 'POST',
+                headers: {
+                    'RequestVerificationToken': token
+                }
+            })
+                .then(response => {
+                    if (response.ok) {
+                        document.getElementById("invoice-" + id).remove();
+                    } else {
+                        alert("Hiba történt a törlés során.");
+                    }
+                });
+        }
+    </script>
+}

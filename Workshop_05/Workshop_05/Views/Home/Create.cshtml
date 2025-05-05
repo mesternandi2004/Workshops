@@ -1,0 +1,40 @@
+﻿@model Workshop_05.Models.Invoice
+@{
+    ViewBag.Title = "Új számla";
+}
+<h2>Új számla</h2>
+
+<form id="invoiceForm" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="mb-3">
+        <label for="payerName" class="form-label">Befizető neve</label>
+        <input type="text" name="PayerName" id="payerName" maxlength="50" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label for="amount" class="form-label">Összeg (Ft)</label>
+        <input type="number" name="Amount" id="amount" class="form-control" required min="1" />
+    </div>
+
+    <button type="submit" id="submitBtn" class="btn btn-primary" disabled>Mentés</button>
+</form>
+
+@section Scripts {
+    <script>
+        const form = document.getElementById('invoiceForm');
+        const payerInput = document.getElementById('payerName');
+        const amountInput = document.getElementById('amount');
+        const submitBtn = document.getElementById('submitBtn');
+
+        function validateForm() {
+            const payer = payerInput.value.trim();
+            const amount = parseInt(amountInput.value);
+            const isValid = payer.length > 0 && payer.length <= 50 && amount > 0;
+            submitBtn.disabled = !isValid;
+        }
+
+        payerInput.addEventListener('input', validateForm);
+        amountInput.addEventListener('input', validateForm);
+    </script>
+}

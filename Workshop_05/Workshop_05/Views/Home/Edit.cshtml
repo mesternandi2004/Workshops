@@ -1,0 +1,30 @@
+﻿@model Workshop_05.Models.Invoice
+@{
+    ViewBag.Title = "Számla módosítása";
+}
+<h2>Számla szerkesztése</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(m => m.Id)
+
+    <div class="mb-3">
+        @Html.LabelFor(m => m.PayerName, htmlAttributes: new { @class = "form-label" })
+        @Html.TextBoxFor(m => m.PayerName, new { @class = "form-control", maxlength = 50 })
+        @Html.ValidationMessageFor(m => m.PayerName)
+    </div>
+
+    <div class="mb-3">
+        @Html.LabelFor(m => m.Amount, htmlAttributes: new { @class = "form-label" })
+        @Html.TextBoxFor(m => m.Amount, new { @class = "form-control", type = "number", min = "1" })
+        @Html.ValidationMessageFor(m => m.Amount)
+    </div>
+
+    <div class="form-check mb-3">
+        @Html.CheckBoxFor(m => m.IsPaid, new { @class = "form-check-input" })
+        @Html.LabelFor(m => m.IsPaid, htmlAttributes: new { @class = "form-check-label" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Mentés</button>
+}
